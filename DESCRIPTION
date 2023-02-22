@@ -1,0 +1,19 @@
+Package: heteromixgm
+Type: Package
+Title: Copula Graphical Models for Heterogeneous Mixed Data
+Imports: Matrix, igraph, parallel, tmvtnorm, glasso, BDgraph, methods, stats, utils, MASS
+Authors@R: c(person(given = "Sjoerd",
+           family = "Hermes",
+           role = c("aut", "cre"),
+           email = "sjoerd.hermes@wur.nl"), 
+           person(given = "Joost", family = "van Heerwaarden", role = "ctb"),
+           person(given = "Pariya", family = "Behrouzi", role = "ctb"))
+Version: 0.1.0
+Author: Sjoerd Hermes  [aut, cre], Pariya Behrouzi [ctb] and Joost van Heerwaarden [ctb].
+Maintainer: Sjoerd Hermes <sjoerd.hermes@wur.nl>
+Description: The heteromixgm package allows you to visualise multi-group multivariate mixed data with graphical models. Combining the Gaussian copula framework with the fused graphical lasso penalty, the heteromixgm package can handle a wide variety of datasets commonly found in various sciences. The package also includes an option to perform model selection using the AIC, BIC and EBIC information criteria, as well as simulate mixed heterogeneous data for exploratory or simulation purposes and one multi-group multivariate mixed agricultural dataset pertaining to maize yields.  
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
