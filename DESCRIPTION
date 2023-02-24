@@ -10,7 +10,7 @@ Authors@R: c(person(given = "Sjoerd",
            person(given = "Pariya", family = "Behrouzi", role = "ctb"))
 Version: 0.1.0
 Maintainer: Sjoerd Hermes <sjoerd.hermes@wur.nl>
-Description: This R package allows for the modeling of multi-group multivariate mixed data with graphical models. Combining the Gaussian copula framework with the fused graphical lasso penalty, the heteromixgm package can handle a wide variety of datasets found in various sciences. The package also includes an option to perform model selection using the AIC, BIC and EBIC information criteria, as well as simulate mixed heterogeneous data for exploratory or simulation purposes and one multi-group multivariate mixed agricultural dataset pertaining to maize yields.  
+Description: This R package allows for the modeling of multi-group multivariate mixed data with graphical models. Combining the Gaussian copula framework with the fused graphical lasso penalty, the heteromixgm package can handle a wide variety of datasets found in various sciences. The package also includes an option to perform model selection using the AIC, BIC and EBIC information criteria, as well as simulate mixed heterogeneous data for exploratory or simulation purposes and one multi-group multivariate mixed agricultural dataset pertaining to maize yields. Reference: Hermes S, van Heerwaarden J, Behrouzi P. (2022) https://doi.org/10.48550/arXiv.2210.13140
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
